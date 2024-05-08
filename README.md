@@ -1,6 +1,6 @@
 # Hello there 👋
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=seleznevaksenia.780167062)
+![](https://komarev.com/ghpvc/?username=seleznevaksenia&color=orange)
 
 ```PHP
 <?php
