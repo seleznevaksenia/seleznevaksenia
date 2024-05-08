@@ -5,22 +5,26 @@
 ```PHP
 <?php
 
-class SoftwareEngineer {
+class SoftwareEngineer
+{
 
-  public $name = "Ksenia Selezneva";
-  public $role = "Software Engineer";
-  public $language_spoken = ["uk_UA", "en_US", "ru_RU", "ro_RO"];
+    public $name = "Ksenia Selezneva";
+    public $role = "Software Engineer";
+    public $language_spoken = ["uk_UA", "en_US", "ru_RU", "ro_RO"];
 
- public function __construct(
-      public string $name = null,
-      public string $role = null
-  ) {
-    $this->name = $name ?: $this->name;
-    $this->role = $role ?: $this->role;
-  }
+    public function __construct(
+        public string $name = null,
+        public string $role = null
+    )
+    {
+        $this->name = $name ?: $this->name;
+        $this->role = $role ?: $this->role;
+    }
 
-  public function sayHi(): void {
-    echo "I'm Ksenia Selezneva a Software Engineer with more than 7 years of experience.\n";
+    public function sayHi(): void
+    {
+        echo "I'm Ksenia Selezneva a Software Engineer with more than 7 years of experience.\n";
+    }
 }
 
 $me = new SoftwareEngineer();
